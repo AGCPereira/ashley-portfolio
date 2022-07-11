@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+}
+/* Header navigation bar */
+header nav {
+    float:right;
+    display:block;
+    padding:10px;
+}
