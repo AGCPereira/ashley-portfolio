@@ -59,6 +59,10 @@ p {
  }
  .recent-pic img {
     max-height: 100%;
-    image-orientation: centers;
-
+    image-orientation: center;
  }
+ 
+.work-img img {
+    max-height: 100%;
+    image-orientation: center;
+}
