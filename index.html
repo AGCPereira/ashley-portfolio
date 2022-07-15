@@ -9,8 +9,8 @@
     </head>
     <body>
         <header>
-            <h1>&emsp; &emsp;Ashley Pereira</h1>
-            <!-- navigation -->
+            <h1>&emsp; Ashley Pereira</h1>
+            <!-- navigation to different sections-->
             <nav>
                 <a href="#about-me">About Me</a>
                 <a href="#work">Work</a>
@@ -18,68 +18,79 @@
                 <a href="#resume">Resume</a>
             </nav>
         </header>
-        <figure class="hero"></figure>
+        <figure class="hero">
+            <div class="bottom-right">Full-Stack Developer</div>
+        </figure>
+
 
         <!-- "about me" section -->
-        <section class="row-1">
+        <section>
             <!--portfolio photo-->
-            <article id="about-me" class="row-2">
+            <aside id="about-me" class="column side">
                 <h2> About Me </h2>
-                <p>
-                <img class="recent-pic" src="https://picsum.photos/200/300" alt="Picture of Ashley Pereira smiling" class="float-right"/> <!--imagie should be on the left of text-->
+            </aside>    
+            <main class="column main">
+                <p><img src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/about-me.jpeg" alt="Picture of Ashley Pereira smiling" class="float-right"/> <!--imagie should be on the left of text-->
                     Lorem ipsum dolor sit amet. Sit consectetur quia est distinctio recusandae et quae necessitatibus aut dolorum magnam qui dolorem dolorem. Eos recusandae assumenda quo nemo fugiat sed animi repellat sed quis officia sed labore soluta nam nemo animi et tempore voluptatum. 
-                </p>
-                    <br> <!--break in between paragraphs-->
-                <p>    
+                    <br></br><!--break in between paragraphs-->
                     Ut quod repudiandae et neque voluptates sit reiciendis itaque qui recusandae quod molestias ratione 33 dolorem omnis et omnis expedita. Eos consequuntur modi aut sint inventore sit tenetur explicabo sed quod sequi ab voluptatem culpa et quaerat quasi?
                 </p>
-            </article>    
+            </main>    
         </section>
+
         <!-- "work" section -->
-        <section class="row-1">
-            <h2> Work </h2>
-            <article id="work">
-                <a href="https://agcpereira.github.io/challenge-1/"><img class="work-img-1" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/horiseon-sun.jpeg" alt="cartoon icon of a sun rising"></a> 
+        <section>
+            <aside id="work" class="column side">
+                    <h2> Work </h2>
+            </aside>
+            
+            <main class="column main " >
+                <div class="work-img"><a href="https://agcpereira.github.io/challenge-1/"><img src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/horiseon-sun.jpeg" alt="cartoon icon of a sun rising" class="bottom-left"></a> 
                 <h3>Horiseon</h3>
                 <p>HTML/CSS</p>
-            </article>
-            <article id="work">
-                <a href="https://agcpereira.github.io/surf-report/"><img class="work-img" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/wave-icon.jpeg" alt="simple cartoon wave"/></a>
+                </div>
+            </main>
+            <main class="column main flex-container">
+                <a href="https://agcpereira.github.io/surf-report/"><img src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/wave-icon.jpeg" alt="simple cartoon wave"/></a>
                 <h3>Surf Report</h3>
                 <p>MERN Stack</p>
-            </article>
-            <article id="work">
-                <a href="https://agcpereira.github.io/calculator/"><img class="work-img" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/calculator.jpeg" alt="cartoon calculator"/></a>
+            </main>
+            <main class="column main flex-container">
+                <a href="https://agcpereira.github.io/calculator/"><img src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/calculator.jpeg" alt="cartoon calculator"/></a>
                 <h3>Calculator</h3>
                 <p>REACT/ JAVASCRIPT/ CSS</p>
-            </article>
-            <article id="work">
-                <a href="https://agcpereira.github.io/LED-wall/"><img class="work-img" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/led-icon.jpeg" alt="neon sign of a lightbulb"/></a>
+            </main>
+            <main class="column main">
+                <a href="https://agcpereira.github.io/LED-wall/"><img src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/led-icon.jpeg" alt="neon sign of a lightbulb"/></a>
                 <h3>LED Wall</h3>
                 <p>Node/ IoT</p>
-            </article>
-            <article id="work">
-                <a href="https://agcpereira.github.io/pastel-puzzels/"><img class="run-buddy" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/pastel-puzzel.jpeg" alt="cartoon calculator with putrple background"/></a>
+            </main>
+            <main class="column main flex-container">
+                <a href="https://agcpereira.github.io/pastel-puzzels/"><img src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/pastel-puzzel.jpeg" alt="cartoon calculator with putrple background"/></a>
                 <h3>Pastel Puzzels</h3>
                 <p>MERN Stack</p>
-            </article>
-            <article id="work">
-                <a href= "https://agcpereira.github.io/run-buddy/"><img class="work-img" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/run-buddy.jpeg" alt="cartoon running shoe"/></a>
+            </main>
+            <main class="column main flex-container">
+                <a href= "https://agcpereira.github.io/run-buddy/"><img src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/run-buddy.jpeg" alt="cartoon running shoe"/></a>
                 <h3>Run Buddy</h3>
                 <p>HTML/ CSS</p>
-            </article>
+            </main>
         </section>    
 
         <!-- "contact me" section -->
-        <footer>
-            <article id="contact-me" class="row">
+        <section>
+            <aside id="contact-me" class="column side">
                 <h2>Contact Me</h2>
-            </article>
-            <article class="column">
-                <p>555-555-5555</p>
-                <p>ashleygrace009@yahoo.com</p>
-                <p>GitHub: </p>
-            </article>
+            </aside>
+            <main class="column main">
+                <h3>555-555-5555</h3>
+                <h3>ashleygrace009@yahoo.com</h3>
+                <h3>GitHub: </h3>
+            </main>
+        </section>
+        
+        <footer>
+            <h4>Ashley Pereira's Portfolio</h4>
         </footer>
     </body>
 </html>

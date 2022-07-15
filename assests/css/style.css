@@ -5,15 +5,28 @@
 }
 
 .hero {
-    height: 250px;
+    padding: 30px;
+    height: 200px;
     width: 100%;
     margin-bottom: 10px;
     background-image: url("../images/header-image-2.jpeg");
     background-size: cover;
     background-position: bottom;
-}    
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+}  
+
+.bottom-right {
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    background-color: rgb(223, 218, 220)
+}
 body {
-    background-color: rgb(241, 237, 231);
+    background-color: rgb(228, 223, 216);
 }
 
 p {
@@ -24,9 +37,9 @@ a {
     color: #090909;
     text-decoration: underline;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header {
@@ -46,24 +59,37 @@ header nav {
     text-decoration: none;
 }
 
- header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     background-color:rgb(241, 237, 231);
     padding: 0px 15px;
- }
+}
 
- .row-1 {
-    display: grid;
-    grid-template-rows: 100px 300px;
-    text-align: center;
- }
+.column {
+    float:left;
+    padding: 10px;
+}
 
- .column {
-    padding: 100px;
-    height: 100px;
+.column.side {
+    width:25%;
+}
+
+.column.main {
+    width:75%;
+}
+
+main img {
     margin: 5px;
-    background-color: #cccccc;
-    text: center;
- }
- 
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.work-img {
+    position: relative;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+    border: 5px solid aquamarine
+}
