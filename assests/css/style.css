@@ -63,6 +63,8 @@ p {
  }
  
 .work-img img {
+    width: 20px;
+    height: 20px;
     max-height: 100%;
     image-orientation: center;
-}
+ }
