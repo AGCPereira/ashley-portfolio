@@ -3,57 +3,58 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assests/css/style.css" />
         <title>Ashley's Porfolio</title>
     </head>
     <body>
         <header>
-            <h1>Ashley Pereira</h1>
+            <h1>&emsp; &emsp;Ashley Pereira</h1>
             <!-- navigation -->
             <nav>
                 <a href="#about-me">About Me</a>
                 <a href="#work">Work</a>
                 <a href="#contact-me">Contact Me</a>
+                <a href="#resume">Resume</a>
             </nav>
         </header>
         <figure class="hero"></figure>
 
         <!-- "about me" section -->
-        <section>
+        <section class="row-1">
             <!--portfolio photo-->
-            <article id="about-me">
+            <article id="about-me" class="row-2">
                 <h2> About Me </h2>
-                <img class="recent-pic" src="https://picsum.photos/200/300" alt="Picture of Ashley Pereira smiling" class="float-left"/> <!--imagie should be on the left of text-->
                 <p>
-                    Lorem ipsum dolor sit amet. Sit consectetur quia est distinctio recusandae et quae necessitatibus aut dolorum magnam qui dolorem dolorem. Eos recusandae assumenda quo nemo fugiat sed animi repellat sed quis officia sed labore soluta nam nemo animi et tempore voluptatum.        
+                <img class="recent-pic" src="https://picsum.photos/200/300" alt="Picture of Ashley Pereira smiling" class="float-right"/> <!--imagie should be on the left of text-->
+                    Lorem ipsum dolor sit amet. Sit consectetur quia est distinctio recusandae et quae necessitatibus aut dolorum magnam qui dolorem dolorem. Eos recusandae assumenda quo nemo fugiat sed animi repellat sed quis officia sed labore soluta nam nemo animi et tempore voluptatum. 
                 </p>
-                <br> <!--break in between paragraphs-->
-                <p>
+                    <br> <!--break in between paragraphs-->
+                <p>    
                     Ut quod repudiandae et neque voluptates sit reiciendis itaque qui recusandae quod molestias ratione 33 dolorem omnis et omnis expedita. Eos consequuntur modi aut sint inventore sit tenetur explicabo sed quod sequi ab voluptatem culpa et quaerat quasi?
                 </p>
             </article>    
         </section>
-
         <!-- "work" section -->
-        <section>
+        <section class="row-1">
             <h2> Work </h2>
             <article id="work">
-                <a href="https://agcpereira.github.io/challenge-1/"><img class="sun" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/horiseon-sun.jpeg" alt="cartoon icon of a sun rising"></a> 
+                <a href="https://agcpereira.github.io/challenge-1/"><img class="work-img-1" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/horiseon-sun.jpeg" alt="cartoon icon of a sun rising"></a> 
                 <h3>Horiseon</h3>
                 <p>HTML/CSS</p>
             </article>
             <article id="work">
-                <a href="https://agcpereira.github.io/surf-report/"><img class="wave" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/wave-icon.jpeg" alt="simple cartoon wave"/></a>
+                <a href="https://agcpereira.github.io/surf-report/"><img class="work-img" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/wave-icon.jpeg" alt="simple cartoon wave"/></a>
                 <h3>Surf Report</h3>
                 <p>MERN Stack</p>
             </article>
             <article id="work">
-                <a href="https://agcpereira.github.io/calculator/"><img class="calculator" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/calculator.jpeg" alt="cartoon calculator"/></a>
+                <a href="https://agcpereira.github.io/calculator/"><img class="work-img" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/calculator.jpeg" alt="cartoon calculator"/></a>
                 <h3>Calculator</h3>
                 <p>REACT/ JAVASCRIPT/ CSS</p>
             </article>
             <article id="work">
-                <a href="https://agcpereira.github.io/LED-wall/"><img class="led-wall" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/led-icon.jpeg" alt="neon sign of a lightbulb"/></a>
+                <a href="https://agcpereira.github.io/LED-wall/"><img class="work-img" src="/Users/agpereira/Desktop/ashley-portfolio/assests/images/led-icon.jpeg" alt="neon sign of a lightbulb"/></a>
                 <h3>LED Wall</h3>
                 <p>Node/ IoT</p>
             </article>
@@ -70,19 +71,15 @@
         </section>    
 
         <!-- "contact me" section -->
-        <section>
-            <article id="contact-me">
-                <h2> Contact Me </h2>
-                <h3>555-555-5555</h3>
-                <h3>ashleygrace009@yahoo.com</h3>
-                <h3>GitHub: </h3>
-            </article>
-        </section>
-
         <footer>
-            <h4>Portfolio of Ashley Grace Pereira</h4>
+            <article id="contact-me" class="row">
+                <h2>Contact Me</h2>
+            </article>
+            <article class="column">
+                <p>555-555-5555</p>
+                <p>ashleygrace009@yahoo.com</p>
+                <p>GitHub: </p>
+            </article>
         </footer>
-        
-
     </body>
 </html>

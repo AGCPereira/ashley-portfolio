@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
- 
+
 .hero {
     height: 250px;
     width: 100%;
@@ -15,6 +15,20 @@
 body {
     background-color: rgb(241, 237, 231);
 }
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #090909;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
 header {
     padding: 15px 0px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,40 +45,25 @@ header nav {
     padding: 30px 35px;
     text-decoration: none;
 }
-a {
-    color: #f1eded;
-    text-decoration: underline;
-    display: inline-block;
-    margin-left: 10px;
-    list-style-type: none;
- }
+
  header h1 {
     display: inline-block;
     font-size: 48px;
     background-color:rgb(241, 237, 231);
     padding: 0px 15px;
  }
-p {
-        font-size: 16px;
 
+ .row-1 {
+    display: grid;
+    grid-template-rows: 100px 300px;
+    text-align: center;
  }
- .float-left {
-    float: left;
-    margin-right: 25px;
+
+ .column {
+    padding: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: #cccccc;
+    text: center;
  }
  
- .float-right {
-    float: right;
-    margin-left: 25px;
- }
- .recent-pic img {
-    max-height: 100%;
-    image-orientation: center;
- }
- 
-.work-img img {
-    width: 20px;
-    height: 20px;
-    max-height: 100%;
-    image-orientation: center;
- }
