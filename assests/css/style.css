@@ -3,8 +3,26 @@
     padding: 0px;
     margin: 0px;
 }
+/* CSS for body. paragaphs and <a tags */
+body {
+    background-color: rgb(228, 223, 216);
+}
 
-.hero {
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #090909;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+/* CSS for all header elements*/
+.header-img {
     padding: 30px;
     height: 200px;
     width: 100%;
@@ -24,22 +42,6 @@
     bottom: 20px;
     right: 16px;
     background-color: rgb(223, 218, 220)
-}
-body {
-    background-color: rgb(228, 223, 216);
-}
-
-p {
-    font-size: 16px;
-}
-
-a {
-    color: #090909;
-    text-decoration: underline;
-    display: inline-block;
-    margin-left: 20px;
-    list-style-type: none;
-    font-size: 25px;
 }
 
 header {
@@ -66,6 +68,11 @@ header h1 {
     padding: 0px 15px;
 }
 
+h2 {
+    text-align: right;
+    font-size: 50px;;
+}
+/* Two columns. One for navigation titles and one for content */
 .column {
     float:left;
     padding: 10px;
@@ -73,23 +80,44 @@ header h1 {
 
 .column.side {
     width:25%;
+    border-right: 3px solid black;
+    height: 200px;
 }
 
 .column.main {
     width:75%;
 }
-
-main img {
+/* content information*/
+article img {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
 }
 
-.work-img {
+.hero {
+    width: 50%;
+    height: auto;
+    border: 10px solid rgb(243, 221, 231);
     position: relative;
-    text-align: left;
-    font-size: 25px;
-    color: rgb(5, 5, 5);
-    border: 5px solid aquamarine
 }
+
+.caption {
+    background-color: rgb(243, 221, 231);
+    padding: 10px;
+    padding-inline-end: 10px;
+}
+/* footer information */
+footer article h4 {
+    color: #090909;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
