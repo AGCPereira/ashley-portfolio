@@ -69,8 +69,10 @@ header h1 {
 }
 
 h2 {
+    padding: 10px;
     text-align: right;
-    font-size: 50px;;
+    font-size: 50px;
+    border-right: 3px solid black;
 }
 /* Two columns. One for navigation titles and one for content */
 .column {
@@ -108,7 +110,7 @@ article img {
     padding-inline-end: 10px;
 }
 /* footer information */
-footer article h4 {
+h3 {
     color: #090909;
     text-decoration: underline;
     display: inline-block;
